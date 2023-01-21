@@ -1,0 +1,74 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que voce veio",
+      "autoria": "Nay",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 2,
+      "conteudo": "Meu nome é Gui Bonito, quero uma namorada e emagrecer também",
+      "autoria": "Gui",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 3,
+      "conteudo": "Hello baby hello baby",
+      "autoria": "baby",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 4,
+      "conteudo": "Bom dia meu amigo",
+      "autoria": "guilherme muito especifico cococooc",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 5,
+      "conteudo": "007 James bom",
+      "autoria": "guitestatndoo",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 6,
+      "conteudo": "007 James bom",
+      "autoria": "guitestatndoo",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "conteudo": "ola",
+      "autoria": "ghj",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 7
+    },
+    {
+      "conteudo": "dsadsa",
+      "autoria": "gui",
+      "modelo": "modelo2",
+      "id": 8,
+      "favorito": false
+    },
+    {
+      "conteudo": "guiuiu",
+      "autoria": "dajskldjsalkd",
+      "modelo": "modelo3",
+      "id": 9,
+      "favorito": false
+    },
+    {
+      "conteudo": "guiguiu",
+      "autoria": "guiguig",
+      "modelo": "modelo2",
+      "id": 10,
+      "favorito": false
+    }
+  ]
+}
