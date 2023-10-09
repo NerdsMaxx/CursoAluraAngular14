@@ -11,12 +11,10 @@
            name="pensamento"
            placeholder="Digite o pensamento"
            formControlName="conteudo" />
-
     <div class="mensagem__erro"
          *ngIf="formulario.get('conteudo')?.errors && formulario.get('conteudo')?.touched">
       Pensamento é obrigatório!
     </div>
-
     <label for="autoria"> Autoria ou fonte </label>
     <input type="textarea"
            class="input"
@@ -24,7 +22,6 @@
            name="autoria"
            placeholder="Digite a autoria ou fonte"
            formControlName="autoria" />
-
     <div class="mensagem__erro"
          *ngIf="formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.touched">
       Autoria é obrigatória!
@@ -59,7 +56,6 @@
           <p class="autoria"><b>{{ formulario.get('autoria')?.value }}</b></p>
         </div>
       </div>
-
       <div class="radio-modelo">
         <label for="modelo2">
           <input type="radio"
@@ -79,7 +75,6 @@
           <p class="autoria"><b>{{ formulario.get('autoria')?.value }}</b></p>
         </div>
       </div>
-
       <div class="radio-modelo">
         <label for="modelo3">
           <input type="radio"

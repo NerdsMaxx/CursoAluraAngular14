@@ -14,7 +14,6 @@
          *ngIf="formulario.get('conteudo')?.errors && formulario.get('conteudo')?.touched">
       Pensamento é obrigatório!
     </div>
-
     <label for="autoria"> Autoria ou fonte </label>
     <input type="textarea"
            class="input"
@@ -33,7 +32,6 @@
          *ngIf="formulario.get('autoria')?.errors?.['lowerCase'] && formulario.get('autoria')?.touched">
       Autoria precisa ter somente letras minúscula.
     </div>
-
     <label for="modelo"> Selecione o modelo do card: </label>
     <div class="container-radio">
       <div class="radio-modelo">
@@ -55,7 +53,6 @@
           <p class="autoria"><b>{{ formulario.get('autoria')?.value }}</b></p>
         </div>
       </div>
-
       <div class="radio-modelo">
         <label for="modelo2">
           <input type="radio"
@@ -75,7 +72,6 @@
           <p class="autoria"><b>{{ formulario.get('autoria')?.value }}</b></p>
         </div>
       </div>
-
       <div class="radio-modelo">
         <label for="modelo3">
           <input type="radio"
@@ -97,10 +93,9 @@
       </div>
     </div>
     <div class="acoes">
-      <button 
-      [disabled]="!formulario.valid"
-      [ngClass]="habilitarBotao()"
-      (click)="criarPensamento()">
+      <button [disabled]="!formulario.valid"
+              [ngClass]="habilitarBotao()"
+              (click)="criarPensamento()">
         Salvar
       </button>
       <button class="botao"
